@@ -1,7 +1,7 @@
 {
-  "name": "remix-etherscan",
+  "name": "remix-verify-contract",
   "version": "0.1.0",
-  "description": "A plugin to verify contracts in Etherscan",
+  "description": "A plugin to verify contracts on mainnet and testnet for Etherscan and BscScan",
   "author": "MachinaLabs",
   "dependencies": {
     "@remixproject/plugin": "0.1.9",
@@ -21,13 +21,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=true react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:ci": "CI=true react-scripts test",
+    "test:ci": "react-scripts test",
     "tslint": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
     "check-formatting": "prettier --write --list-different './src/**/*.tsx'",
-    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-etherscan-plugin-v2.surge.sh"
+    "deploy": "yarn build && surge --project ./build --domain remix-verify-contract.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"

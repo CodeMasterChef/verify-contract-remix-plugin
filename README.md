@@ -1,28 +1,25 @@
-# Remix Etherscan Plugin
+# Remix Etherscan BscScan Plugin
 
-A plugin to verify contracts in Etherscan
+A plugin to verify contracts on mainnet and testnet for Etherscan and BscScan
 
-[![CircleCI](https://circleci.com/gh/Machinalabs/remix-etherscan-plugin.svg?style=svg)](https://circleci.com/gh/Machinalabs/remix-etherscan-plugin)
-
-Full documentation https://remix-etherscan-plugin.readthedocs.io/en/latest/
 
 ### Install
 
 ```
-$ git clone git@github.com:Machinalabs/remix-etherscan-plugin.git
-
 $ yarn
-
 ```
 
 ### Commands
 
 ```
-$ yarn start # start development project
+# start development project
+$ yarn start 
 
-$ yarn deploy # deploy to surge
+# deploy to surge
+$ yarn deploy
 
-$ yarn build # build production project
+# build production project
+$ yarn build 
 
 ```
 
