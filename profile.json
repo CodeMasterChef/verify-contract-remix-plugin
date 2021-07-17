@@ -1,0 +1,13 @@
+{
+    "name": "remix-verify-contract",
+    "displayName": "Etherscan & BscScan contract verification",
+    "description": "Verify Solidity contract code using Etherscan API and BscScan API",
+    "version": "0.1.0",
+    "events": [],
+    "methods": [],
+    "kind": "none",
+    "icon": "https://image.flaticon.com/icons/png/512/2921/2921112.png",
+    "location": "sidePanel",
+    "documentation": "https://remix-etherscan-plugin.readthedocs.io/en/latest/",
+    "url": "https://remix-verify-contract.surge.sh"
+}
