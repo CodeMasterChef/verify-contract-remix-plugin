@@ -65,7 +65,9 @@ Result:
 ```
 If your contract has empty constructor, no need to fill in anything.
 
-Tips: We can use the following tool to ecode and decode: [https://adibas03.github.io/online-ethereum-abi-encoder-decoder](https://adibas03.github.io/online-ethereum-abi-encoder-decoder). This tool is missing 0x where the result. There must be 0x for Remix to understand as bytes.
+Tips: We can use the following tool to ecode and decode: [https://adibas03.github.io/online-ethereum-abi-encoder-decoder](https://adibas03.github.io/online-ethereum-abi-encoder-decoder). This tool is **missing 0x** where the result. There must be 0x for Remix to understand as bytes.
+
+![](https://raw.githubusercontent.com/gitvani/verify-contract-remix-plugin/master/docs/step_5.2.png)
 
 **Contract address**: the address of deployed contract.
 
