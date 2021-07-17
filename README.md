@@ -50,10 +50,10 @@ After compiling, fill inputs as below picture to verify contract:
 
 **Contract**: select your contract you want to verify.
 
-**Constructor Arguments**: use the `web3.eth.abi.encodeParameters` to encode the params of constructor.
+**Constructor Arguments**: hex encoded of params of constructor when you deployed contract. Use the `web3.eth.abi.encodeParameters` to encode the params of constructor.
 Example, your contract has a constructor as below:
 ```
-function constructor(uint256 a, address b, bool c) public {}
+constructor(uint256 a, address b, bool c) public {}
 ```
 Then, hex encode will be the result of web3.eth.abi.encodeParameters, example:
 ```
