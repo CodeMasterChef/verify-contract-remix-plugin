@@ -8,6 +8,6 @@
     "kind": "none",
     "icon": "https://image.flaticon.com/icons/png/512/2921/2921112.png",
     "location": "sidePanel",
-    "documentation": "https://remix-etherscan-plugin.readthedocs.io/en/latest/",
+    "documentation": "https://github.com/gitvani/verify-contract-remix-plugin/blob/master/README.md",
     "url": "https://remix-verify-contract.surge.sh"
 }
