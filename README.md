@@ -16,12 +16,15 @@ Access the Plugin Manager tab, select Connect to Local Plugin:
 
 ## Step 2: 
 Fill the information as below picture:
-- **Plugin Name** and **Display Name** we can fill anything, as long as they do not match the activated plugins.
 
-- **Url** must be `https://remix-verify-contract.surge.sh` (This is deployed web app of this source code).
-
-- **Type of connection** must be `Iframe`.
 ![](https://raw.githubusercontent.com/gitvani/verify-contract-remix-plugin/master/docs/step_2.png)
+
+**Plugin Name** and **Display Name** we can fill anything, as long as they do not match the activated plugins.
+
+**Url** must be `https://remix-verify-contract.surge.sh` (This is deployed web app of this source code).
+
+**Type of connection** must be `Iframe`.
+
 
 ## Step 3: 
 Access the plugin tab (which has ❔ icon):
