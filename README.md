@@ -69,6 +69,8 @@ Tips: We can use the following tool to ecode and decode: [https://adibas03.githu
 
 ![](https://raw.githubusercontent.com/gitvani/verify-contract-remix-plugin/master/docs/step_5.2.png)
 
+Otherwise, use this web tool which has easy UI: https://abi.hashex.org/
+
 Alternatively, based on the Input Data when deploying the contract on etherscan:
 
 Example: [https://rinkeby.etherscan.io/tx/0xdd5ccabffbe48ff9655e295c024cc14868c4f1c7ad1a3f71338ee2970f28d627](https://www.notion.so/68c4f1c7ad1a3f71338ee2970f28d627)
