@@ -69,6 +69,17 @@ Tips: We can use the following tool to ecode and decode: [https://adibas03.githu
 
 ![](https://raw.githubusercontent.com/gitvani/verify-contract-remix-plugin/master/docs/step_5.2.png)
 
+Alternatively, based on the Input Data when deploying the contract on etherscan:
+
+Example: [https://rinkeby.etherscan.io/tx/0xdd5ccabffbe48ff9655e295c024cc14868c4f1c7ad1a3f71338ee2970f28d627](https://www.notion.so/68c4f1c7ad1a3f71338ee2970f28d627)
+
+In the Input Data section, we will have a very long string. If the constructor has 3 parameters, then the Constructor Arguments ABI-encoded will be the last 192 characters, which is equal to 64 * 3 = 192. To get the last 192 characters in Javascript:
+
+```javascript
+const s = "0000000............0000000000";
+s.substr(s.length - 192, 192);
+```
+
 **Contract address**: the address of deployed contract.
 
 # How to fork:
